@@ -12,9 +12,8 @@ Circular buffer
 buffer size = 10 (default)
 read pointer = 0
 write pointer = 0
+
 List of test cases
-TC01 => 1 commit
-TC02 => 1 commit
-TC03 => 1 commit
-TC04 => 1 commit
-TC05 => 1 commit
+* TC01 => 1 commit
+* writefirstandread,readfirstandwrite => 1 commit
+
