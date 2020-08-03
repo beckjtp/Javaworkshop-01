@@ -4,11 +4,8 @@ public class HelloWorld {
         return "Hello World";
     }
 
-    public String seyHiPui() {
-        return "Hello Pui";
+    public String seyHi(String name) {
+        return "Hello " + name;
     }
 
-    public String seyHiSomkiat() {
-        return "Hello Somkiat";
-    }
 }
