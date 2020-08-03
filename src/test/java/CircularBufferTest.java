@@ -17,7 +17,7 @@ public class CircularBufferTest {
             circularBuffer.writeData("A" + i);
         }
         boolean result = circularBuffer.isFull();
-        assertTrue("buffer isnot full" ,result);
+        assertTrue("buffer is not full" ,result);
     }
 
     @Test
@@ -27,6 +27,19 @@ public class CircularBufferTest {
         circularBuffer.writeData("B");
         assertEquals("A",circularBuffer.readData());
         assertEquals("B",circularBuffer.readData());
+    }
+    @Test
+    public  void  write_first_and_read(){
+        CircularBuffer circularBuffer=new CircularBuffer();
+        circularBuffer.writeData("A");
+        assertEquals("A",circularBuffer.readData());
+    }
 
+    @Test
+    public void read_first_and_write(){
+        CircularBuffer circularBuffer = new CircularBuffer();
+        assertTrue(circularBuffer.isExmpty());
+        circularBuffer.writeData("A");
+        assertEquals("A",circularBuffer.readData());
     }
 }
