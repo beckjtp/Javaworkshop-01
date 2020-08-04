@@ -33,7 +33,10 @@ public class TennisGame2 implements TennisGame{
         if (player1point == player2point && player1point >=3) {
             score = "Deuce";
         }
-        if (player1point > 0 && player2point ==0 || player2point > 0 && player1point ==0 ||player1point > player2point && player1point < 4 || player2point > player1point && player2point < 4)
+        if (player1point > 0 && player2point ==0
+            || player2point > 0 && player1point ==0
+            || player1point > player2point && player1point < 4
+            || player2point > player1point && player2point < 4)
         {
             player1Result = getPoint(player1point);
             player2Result =  getPoint(player2point);
