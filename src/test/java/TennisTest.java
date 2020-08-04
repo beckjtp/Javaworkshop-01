@@ -24,6 +24,7 @@ public class TennisTest {
                 { 2, 2, "Thirty-All"},
                 { 3, 3, "Deuce"},
                 { 4, 4, "Deuce"},
+
                 { 1, 0, "Fifteen-Love"},
                 { 0, 1, "Love-Fifteen"},
                 { 2, 0, "Thirty-Love"},
@@ -32,6 +33,7 @@ public class TennisTest {
                 { 0, 3, "Love-Forty"},
                 { 4, 0, "Win for player1"},
                 { 0, 4, "Win for player2"},
+
                 { 2, 1, "Thirty-Fifteen"},
                 { 1, 2, "Fifteen-Thirty"},
                 { 3, 1, "Forty-Fifteen"},
